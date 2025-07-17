@@ -1,6 +1,10 @@
 export const TASK_QUEUE_NAME = 'levity-case-delivery-delays';
 export const DELAY_THRESHOLD_IN_MINUTES = 2;
 
+export const OPEN_API_KEY = 'sample-key';
+export const OPEN_ROUTER_API_KEY = 'sample-key';
+export const POSTMARK_API_KEY = 'sample-key';
+
 export type DeliveryOrder = {
   name: string;
   email: string;
